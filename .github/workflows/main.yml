@@ -23,4 +23,4 @@ jobs:
         working-directory: .
         run: |
           ls -l
-          docker build . -t financeplannerapi
+          docker build -f financeplannerapi/Dockerfile . -t financeplannerapi
