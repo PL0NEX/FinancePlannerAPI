@@ -73,6 +73,7 @@ namespace FinancePlannerAPI.UnitTests
                         .ThrowsAsync(new Exception("Internal server error"));
 
             // Act
+            //ww
             var result = await _controller.GetCategoryById(categoryId);
 
             // Assert
